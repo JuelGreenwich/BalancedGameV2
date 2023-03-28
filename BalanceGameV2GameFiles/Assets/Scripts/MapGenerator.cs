@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.Threading;
 using System.Collections.Generic;
+using UnityEngine.AI;
 
 public class MapGenerator : MonoBehaviour
 {
@@ -39,7 +40,9 @@ public class MapGenerator : MonoBehaviour
 
 	float[,] fallOffMapp;
 
-    private void Start()
+	private NavMeshData navMeshData;
+
+	private void Start()
     {
 		seed = UnityEngine.Random.Range(0, 100);
 		Debug.Log(seed);
