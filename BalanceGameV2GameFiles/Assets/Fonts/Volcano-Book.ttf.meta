@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: da70e5bfed8775e4e8cf424fe399b534
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Volcano
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e603dd638ec4bc24f9f9a48b8f0cf55a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
