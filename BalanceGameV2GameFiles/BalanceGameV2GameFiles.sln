@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamples", "NavMeshComponentsExamples.csproj", "{D6279709-07FD-6B9A-C249-B0D9C6437838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsPlaymode", "NavMeshComponentsTestsPlaymode.csproj", "{58F59BB6-04FB-0838-8624-3FACF875BEB7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{48D06801-81FD-AD2F-0A57-7D1649ABA410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsPlaymode", "NavMeshComponentsTestsPlaymode.csproj", "{58F59BB6-04FB-0838-8624-3FACF875BEB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{EC53ABCB-4034-382B-02D9-28A1E14A0B62}"
 EndProject
@@ -31,14 +31,14 @@ Global
 		{D6279709-07FD-6B9A-C249-B0D9C6437838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6279709-07FD-6B9A-C249-B0D9C6437838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6279709-07FD-6B9A-C249-B0D9C6437838}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48D06801-81FD-AD2F-0A57-7D1649ABA410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48D06801-81FD-AD2F-0A57-7D1649ABA410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48D06801-81FD-AD2F-0A57-7D1649ABA410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48D06801-81FD-AD2F-0A57-7D1649ABA410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F59BB6-04FB-0838-8624-3FACF875BEB7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC53ABCB-4034-382B-02D9-28A1E14A0B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC53ABCB-4034-382B-02D9-28A1E14A0B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC53ABCB-4034-382B-02D9-28A1E14A0B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
