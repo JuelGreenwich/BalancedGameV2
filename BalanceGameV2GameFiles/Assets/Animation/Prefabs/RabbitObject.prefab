@@ -1444,7 +1444,7 @@ GameObject:
   - component: {fileID: 7855597013849921810}
   m_Layer: 0
   m_Name: RabbitObject
-  m_TagString: Untagged
+  m_TagString: Rabbit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1511,6 +1511,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   rabbitAnimator: {fileID: 3741773762626067266}
+  isIdling: 0
+  isLooking: 0
+  isHopping: 0
+  isEating: 0
+  isEscaping: 0
   _animationState: 0
   movementSpeed: 20
   runSpeed: 40

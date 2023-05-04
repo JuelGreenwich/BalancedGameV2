@@ -94,6 +94,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\ProGen2\Code\SpawnRoomss.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
@@ -124,7 +125,18 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\TimeController.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\AnimalTemplate.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\WorldTracker.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\AnimalDisplay.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\Currency.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\ItemDrag.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\WorldClock.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\Item.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\ItemDrop.cs" />
+    <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\EconomyManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
