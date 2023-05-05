@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class TimeController : MonoBehaviour
@@ -30,6 +31,12 @@ public class TimeController : MonoBehaviour
 
     [SerializeField] AnimationCurve lightChangeCurve;
 
+    [SerializeField] Currency currency;
+    [SerializeField] TextMeshProUGUI displayDay;
+    [SerializeField] Slider slider;
+    int dayCounter = 1;
+
+
     void Start()
     {
         currentTime = DateTime.Now.Date + TimeSpan.FromHours(startHour);
@@ -47,11 +54,18 @@ public class TimeController : MonoBehaviour
 
     void UpdateTimeOfDay()
     {
-        currentTime = currentTime.AddSeconds(Time.deltaTime * timeMultiplyer);
+        currentTime = currentTime.AddSeconds(Time.deltaTime * timeMultiplyer * slider.value);
+        displayDay.text = dayCounter.ToString();
 
         if (timeText != null)
         {
             timeText.text = currentTime.ToString("HH:mm");
+        }
+
+        if(currentTime.ToString("HH:mm") == "00:00")
+        {
+            currency.RegenCredits();
+            dayCounter++;
         }
     }
      

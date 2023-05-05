@@ -883,7 +883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4a760f947ee424aad55f2118dddeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sampleScene: PauseScene
+  sampleScene: Juel's ProGen2
   menuScreen: {fileID: 752982370}
   settingsScreen: {fileID: 681079857}
   creditsScreen: {fileID: 1512566236}

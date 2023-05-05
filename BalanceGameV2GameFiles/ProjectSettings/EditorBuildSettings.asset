@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: e3380bffd667be84982ecb2d0733de4c
+  - enabled: 1
+    path: Assets/Scenes/Juel's ProGen2.unity
+    guid: ac9c553e2bbf21e4aa757f00eb41601e
   m_configObjects: {}

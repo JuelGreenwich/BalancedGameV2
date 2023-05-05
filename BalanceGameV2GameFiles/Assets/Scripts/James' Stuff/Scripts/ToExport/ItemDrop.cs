@@ -27,7 +27,7 @@ public class ItemDrop : MonoBehaviour, IDropHandler
 
         if (!RectTransformUtility.RectangleContainsScreenPoint(invPanel, Input.mousePosition))
         {
-            if(economyManager.currency.Credits >= animalDisplay.cost)
+            if(economyManager.currency.Credits >= itemToSpawn.cost)
             {
                 economyManager.Purchase(itemToSpawn.index);
                 Instantiate(itemToSpawn.mesh, spawnPos, Quaternion.identity);
