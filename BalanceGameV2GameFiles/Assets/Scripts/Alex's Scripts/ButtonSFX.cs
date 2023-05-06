@@ -8,20 +8,13 @@ public class ButtonSFX : MonoBehaviour
     public AudioSource mouseHover;
     public AudioSource mouseClick;
 
-    public void OnMouseDown()
+    public void PlayOnClick()
     {
         mouseClick.Play();
     }
 
-    public void OnMouseOver()
-    {
-        //mouseHover.Play();
-    }
-
-    public void OnMouseEnter()
+    public void PlayOnHover()
     {
         mouseHover.Play();
     }
-
-    //public void OnMouse
 }

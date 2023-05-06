@@ -198,9 +198,9 @@ public class FoxAnimation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        RotateFeet();
-        RotateBody();
-        AdjustHeight();
+        //RotateFeet();
+        //RotateBody();
+        //AdjustHeight();
     }
 
     private void CheckGroundBelow(out Vector3 hitTarget, out bool groundSpherecastHit, out Vector3 hitNormal, out LayerMask hitMask,

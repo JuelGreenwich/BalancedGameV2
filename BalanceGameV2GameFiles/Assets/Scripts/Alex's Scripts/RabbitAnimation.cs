@@ -149,8 +149,8 @@ public class RabbitAnimation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        RotFeet();
-        RotateBody();
+        //RotFeet();
+        //RotateBody();
         //AdjustHeight();
     }
 
