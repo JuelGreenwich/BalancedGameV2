@@ -81,6 +81,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\MeshGeneratorTerrain.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\SpawnPiecesProGen.cs" />
     <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\LevelGeneraton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Scripts\TerrainGenerator.cs" />
     <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\ItemDrag.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\TreeSpawner.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.7\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\Alex&apos;s Scripts\MenuScript.cs" />
@@ -141,8 +143,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\ItemDrop.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\SpawnPiecesProGen.cs" />
-    <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\TreeSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

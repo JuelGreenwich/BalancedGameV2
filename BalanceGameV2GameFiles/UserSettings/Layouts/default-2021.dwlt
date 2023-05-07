@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 327
     height: 957
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 587
     width: 1593
     height: 370
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 88
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 89
+  controlID: 23
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1897,22 +1897,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Material/Juel's Texture/Terrain/Chunks/Pieces/LR
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 74
   m_LastFolders:
-  - Assets/Material/Juel's Texture/Terrain/Chunks/Pieces/LR
+  - Assets
   m_LastFoldersGridSize: 74
   m_LastProjectPath: D:\Store\UNI\Year 3\Advanced Games Design and Development\Repo\V2\BalanceGameV2\BalanceGameV2GameFiles
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06970000
-    m_LastClickedID: 38662
-    m_ExpandedIDs: 0000000036790000387900003a7900003c7900003e79000040790000427900004479000046790000487900004a7900004c7900004e79000050790000527900005a79000002970000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: ce760000
+    m_LastClickedID: 30414
+    m_ExpandedIDs: 000000009a7600009c7600009e760000a0760000a2760000a4760000a6760000a8760000aa760000ac760000ae760000b0760000b2760000b4760000b6760000b8760000ce760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1940,7 +1940,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036790000387900003a7900003c7900003e79000040790000427900004479000046790000487900004a7900004c7900004e7900005079000052790000
+    m_ExpandedIDs: 000000009a7600009c7600009e760000a0760000a2760000a4760000a6760000a8760000aa760000ac760000ae760000b0760000b2760000b4760000b6760000b8760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1967,7 +1967,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007ca20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2070,7 +2070,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a025feffbe25feffe825feff0626feffc426feff5e27feff7097feff2eaefeff28b1feff40b1feff80b3feff92b3feff26d1feff72d1feffbed1feff42d5feff10e5feff127affff0aedffff4ef2ffff42f9ffffae840000c68400005285000052860000ac860000
+      m_ExpandedIDs: 6c3cffff3057ffff585dffff86c1ffff9ccbffff72d9ffffb6e6ffff08f5ffffacf7ffff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2330,9 +2330,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.89941, y: 8.592725, z: 6.1198974}
+    m_Target: {x: 34.994682, y: -10.613963, z: -17.537804}
     speed: 2
-    m_Value: {x: -5.89941, y: 8.592725, z: 6.1198974}
+    m_Value: {x: 34.994682, y: -10.613963, z: -17.537804}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2379,13 +2379,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2580333, y: 0.011011387, z: -0.0029418399, w: 0.96608186}
+    m_Target: {x: 0.46390647, y: 0.000000014404614, z: 0.000000036314585, w: 0.8858878}
     speed: 2
-    m_Value: {x: 0.2609271, y: 0.011002374, z: -0.002974825, w: 0.96529126}
+    m_Value: {x: 0.46390498, y: 0.000000014404568, z: 0.000000036314468, w: 0.88588494}
   m_Size:
-    m_Target: 71.25849
+    m_Target: 67.65128
     speed: 2
-    m_Value: 71.25849
+    m_Value: 67.65128
   m_Ortho:
     m_Target: 0
     speed: 2
