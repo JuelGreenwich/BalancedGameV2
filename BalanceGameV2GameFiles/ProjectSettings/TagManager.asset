@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Rabbit
   - Ground
+  - Fox
+  - Hut
+  - Vegetable
+  - Vegtable
   layers:
   - Default
   - TransparentFX
@@ -15,9 +19,9 @@ TagManager:
   - UI
   - Room
   - Animals
-  - 
-  - 
-  - 
+  - Rabbit
+  - Fox
+  - Vegetable
   - 
   - 
   - 

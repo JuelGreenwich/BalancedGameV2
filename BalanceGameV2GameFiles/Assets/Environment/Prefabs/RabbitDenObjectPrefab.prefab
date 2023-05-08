@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8659469421665745904}
+  - component: {fileID: 3818439102093741417}
+  - component: {fileID: 3663275484890538249}
   m_Layer: 0
   m_Name: RabbitDenObjectPrefab
-  m_TagString: Untagged
+  m_TagString: Hut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,6 +34,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3818439102093741417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2978984586177226019}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc5f22c83bbcde4fa591e5cb94719e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInterval: 10
+  rabbitPrefab: {fileID: 8238876599471381066, guid: 4a4f3e2a53dba704899ccde72579daa6, type: 3}
+  safeZone: 10
+--- !u!65 &3663275484890538249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2978984586177226019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.583593, y: 6.770128, z: 7.1548004}
+  m_Center: {x: -0.27476978, y: 3.4345996, z: -0.05495453}
 --- !u!1001 &3512042233232475740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,6 +69,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8659469421665745904}
     m_Modifications:
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.026394844
+      objectReference: {fileID: 0}
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.011395987
+      objectReference: {fileID: 0}
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Center.x
+      value: -0.16261011
+      objectReference: {fileID: 0}
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0056979875
+      objectReference: {fileID: 0}
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Center.z
+      value: -0.09607705
+      objectReference: {fileID: 0}
+    - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4919675251602218461, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -87,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rabbit Den
       objectReference: {fileID: 0}
+    - target: {fileID: 5696457868144248679, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_TagString
+      value: Hut
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
 --- !u!4 &8429460177731328897 stripped
@@ -94,3 +152,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4919675251602218461, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
   m_PrefabInstance: {fileID: 3512042233232475740}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9201036498848858427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5696457868144248679, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+  m_PrefabInstance: {fileID: 3512042233232475740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1695528049603036744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201036498848858427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc5f22c83bbcde4fa591e5cb94719e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInterval: 10
+  rabbitPrefab: {fileID: 8238876599471381066, guid: 4a4f3e2a53dba704899ccde72579daa6, type: 3}
+  safeZone: 10

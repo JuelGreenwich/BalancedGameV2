@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3928862994972399448}
   - component: {fileID: -3894190016953945582}
   - component: {fileID: 2914488479834346287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RabbitFoodPrefab
-  m_TagString: Untagged
+  m_TagString: Vegetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,9 +74,9 @@ GameObject:
   - component: {fileID: 5739162154634390439}
   - component: {fileID: 8649798633112609794}
   - component: {fileID: 6912661828217000136}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Large Grass Bunch
-  m_TagString: Untagged
+  m_TagString: Vegetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

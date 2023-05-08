@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2849741341187662796}
   - component: {fileID: 1162926183997992041}
   - component: {fileID: 4019318056334629027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Large Grass Bunch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,9 +92,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347856541105936466}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrassOrShrroms1
-  m_TagString: Untagged
+  m_TagString: Vegetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
