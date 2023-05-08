@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5877799778781907348}
   - component: {fileID: 3939730739731561760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ChunkLRBT 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
