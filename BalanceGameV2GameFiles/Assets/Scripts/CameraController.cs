@@ -1,6 +1,4 @@
 using System.Collections;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -20,14 +18,8 @@ public class CameraController : MonoBehaviour
     private Quaternion targetRotation;
     private bool isMoving;
     private float elapsedTime;
-    private KeyboardShortcut[] shortcutArray;
     private GameObject currentTarget;
     private Coroutine moveCoroutine;
-
-    private void Start()
-    {
-        LoadData();
-    }
 
     private void Update()
     {
@@ -48,13 +40,16 @@ public class CameraController : MonoBehaviour
             StopFollowingTarget();
         }
 
-        foreach (KeyboardShortcut shortcut in shortcutArray)
+        string[] tags = { "Rabbit", "Fox" };
+        KeyCode[] keys = { KeyCode.R, KeyCode.F };
+
+        for (int i = 0; i < tags.Length; i++)
         {
-            if (Input.GetKeyDown(shortcut.keyInput))
+            if (Input.GetKeyDown(keys[i]))
             {
                 GameObject target = currentTarget == null
-                    ? FindClosestTarget(shortcut.stringValue)
-                    : FindSecondClosestTarget(shortcut.stringValue);
+                    ? FindClosestTarget(tags[i])
+                    : FindSecondClosestTarget(tags[i]);
 
                 if (target != null)
                 {
@@ -80,8 +75,11 @@ public class CameraController : MonoBehaviour
             (Input.GetKey(KeyCode.Space) ? 1 : 0) - (Input.GetKey(KeyCode.LeftShift) ? 1 : 0),
             Input.GetAxisRaw("Vertical"));
 
-        transform.position += transform.TransformDirection(movement) * (cameraSpeed * Time.deltaTime);
+        Vector3 newPosition = transform.position + transform.TransformDirection(movement) * (cameraSpeed * Time.deltaTime);
+        newPosition.y = Mathf.Clamp(newPosition.y, 0f, 10f); // Clamp the y position to a maximum of 10
+        transform.position = newPosition;
     }
+
 
     private void UpdateCameraRotation()
     {
@@ -91,23 +89,12 @@ public class CameraController : MonoBehaviour
         if (stopRotation) return;
 
         horizontal += cameraSensitivityHorizontal * Input.GetAxis("Mouse X");
-        vertical = Mathf.Clamp(vertical - cameraSensitivityVertical * Input.GetAxis("Mouse Y"), -maximalRotation, maximalRotation);
+        vertical = Mathf.Clamp(vertical - cameraSensitivityVertical * Input.GetAxis("Mouse Y"), -maximalRotation,
+            maximalRotation);
 
         transform.eulerAngles = new Vector3(vertical, horizontal, 0f);
     }
 
-    private void LoadData()
-    {
-        string filePath = Path.Combine(Application.dataPath, "SaveFiles", "Shortcuts.txt");
-        if (!File.Exists(filePath)) return;
-
-        BinaryFormatter formatter = new BinaryFormatter();
-        using (FileStream stream = new FileStream(filePath, FileMode.Open))
-        {
-            ShortcutArrayData data = (ShortcutArrayData)formatter.Deserialize(stream);
-            shortcutArray = data.shortcutArray;
-        }
-    }
     private GameObject FindClosestTarget(string tag, int ignoreIndex = -1)
     {
         GameObject[] targets = GameObject.FindGameObjectsWithTag(tag);
@@ -166,3 +153,4 @@ public class CameraController : MonoBehaviour
         currentTarget = null;
     }
 }
+

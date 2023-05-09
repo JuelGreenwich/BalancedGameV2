@@ -147,6 +147,11 @@ public class RabbitAnimation : MonoBehaviour
         }
     }
 
+    public void ChangeAnimationState(State newState)
+    {
+        _animationState = newState;
+    }
+
     private void FixedUpdate()
     {
         //RotFeet();

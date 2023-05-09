@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 454193532451175770}
   - component: {fileID: 8827431803536052371}
   - component: {fileID: 6297488207914027059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chunk LRB Bush
   m_TagString: Ground
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
@@ -128,6 +128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObjectBush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -189,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_Name
       value: SpawnObjectBush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder
@@ -252,6 +260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObjectBush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -313,6 +325,10 @@ PrefabInstance:
     - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_Name
       value: SpawnObjectBush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder
@@ -376,6 +392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObjectBush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -437,6 +457,10 @@ PrefabInstance:
     - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_Name
       value: SpawnObjectBush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251805266323666131, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8775129360544490659, guid: 998ec1d9f09954f4c9cffe9e095dc378, type: 3}
       propertyPath: m_RootOrder

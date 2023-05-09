@@ -84,6 +84,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\SpawnPiecesProGen.cs" />
     <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\LevelGeneraton.cs" />
+    <Compile Include="Assets\Scripts\Ilmar\Hut.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Noise.cs" />
@@ -105,9 +106,11 @@
     <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Code\SpawnRoomss.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Ilmar\Fox.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scripts\Ilmar\Rabbit.cs" />
     <Compile Include="Assets\Scripts\Juel&apos;s ProGen\Pause\TimedCanvasController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -145,9 +148,9 @@
     <Compile Include="Assets\Scripts\James&apos; Stuff\Scripts\ToExport\ItemDrop.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Options Menu\Resolution.cs" />
-    <Compile Include="Assets\Scripts\Ilmar\Hut.cs" />
-    <Compile Include="Assets\Scripts\Ilmar\Fox.cs" />
-    <Compile Include="Assets\Scripts\Ilmar\Rabbit.cs" />
+    <Compile Include="Assets\Scripts\MovementSounds.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\DistanceAudioController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

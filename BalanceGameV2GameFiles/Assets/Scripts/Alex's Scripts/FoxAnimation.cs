@@ -196,6 +196,10 @@ public class FoxAnimation : MonoBehaviour
         }
     }
 
+    public void ChangeAnimationState(State newState)
+    {
+        animationState = newState;
+    }
     private void FixedUpdate()
     {
         //RotateFeet();

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49536778387323005}
   - component: {fileID: 2239539812397864204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (9)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 8915085786858746331}
   - component: {fileID: 2360011157565527916}
   - component: {fileID: 4128797823228716329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chunk LR Rock
   m_TagString: Ground
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8848308515156550760}
   - component: {fileID: 8295143782051752761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (5)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -229,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4757324935179837146}
   - component: {fileID: 851356807554164843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (7)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -278,7 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7640242122416406384}
   - component: {fileID: 4218654553400625976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (4)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -327,7 +327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7580869537837994725}
   - component: {fileID: 9125979629992814137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (2)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -376,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491374620037588619}
   - component: {fileID: 1290458637205620587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (8)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4613600536418706082}
   - component: {fileID: 8915215616656387312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (6)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -474,7 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3864029052669726788}
   - component: {fileID: 6285452776315109598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (1)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -523,7 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825876358380859426}
   - component: {fileID: 4069040099376028624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObject  (3)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -572,6 +572,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder

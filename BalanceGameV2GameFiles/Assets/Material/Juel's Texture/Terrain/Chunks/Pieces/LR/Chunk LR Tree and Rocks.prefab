@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5376815942299249247}
   - component: {fileID: 1289867264905497832}
   - component: {fileID: 606465788673146541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chunk LR Tree and Rocks
   m_TagString: Ground
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -181,6 +181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575000648537162 stripped
@@ -243,6 +247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575000631619827 stripped
@@ -260,6 +268,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
@@ -322,6 +334,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
@@ -429,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575000793172131 stripped
@@ -490,6 +510,10 @@ PrefabInstance:
     - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
       propertyPath: m_Name
       value: SpawnObject Trees (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
@@ -553,6 +577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575000972944680 stripped
@@ -570,6 +598,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
@@ -633,6 +665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Rock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -695,6 +731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Rock
       objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -756,6 +796,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
@@ -863,6 +907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575002132575597 stripped
@@ -925,6 +973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnObject Trees (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
 --- !u!4 &7447575002003466513 stripped
@@ -942,6 +994,10 @@ PrefabInstance:
     - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_Name
       value: SpawnObject Rock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925805729736234078, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8120643454363054990, guid: 553c6e0a9eae5ef41898aa7381d96880, type: 3}
       propertyPath: m_RootOrder
@@ -1048,6 +1104,10 @@ PrefabInstance:
     - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
       propertyPath: m_Name
       value: SpawnObject Trees
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358333126992722845, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70ecc1b046092b4798ee4fbca61b96f, type: 3}

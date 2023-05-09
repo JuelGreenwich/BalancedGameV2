@@ -25,6 +25,9 @@ public class Rabbit : MonoBehaviour
     public GameObject rabbitPrefab;
     public State currentState;
     public bool isBusy;
+    [SerializeField] Animator rabbitAnimator;
+
+    [SerializeField] public RabbitAnimation animator;
 
     [Header("Gather Food Variables")]
     public float foodReplenishment;
@@ -247,12 +250,15 @@ public class Rabbit : MonoBehaviour
         switch (currentState)
         {
             case State.Graze:
+                animator.ChangeAnimationState(RabbitAnimation.State.Hopping);
                 break;
             case State.GatherFood:
                 GatherFood();
+                animator.ChangeAnimationState(RabbitAnimation.State.Eating);
                 break;
             case State.Flee:
                 Flee();
+                animator.ChangeAnimationState(RabbitAnimation.State.Escaping);
                 break;
         }
     }

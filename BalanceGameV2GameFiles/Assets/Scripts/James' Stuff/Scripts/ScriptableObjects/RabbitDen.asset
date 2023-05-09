@@ -17,7 +17,7 @@ MonoBehaviour:
   attackPower: 0
   prefab: {fileID: 2978984586177226019, guid: 4447c04a1e047f24fb3e824b9d7090bd, type: 3}
   icon: {fileID: -2074877443, guid: a1df2a31e74aece4893609b3d7fdb80b, type: 3}
-  cost: 15
+  cost: 5
   index: 2
   lifeSpan: 0
   hungerRate: 0

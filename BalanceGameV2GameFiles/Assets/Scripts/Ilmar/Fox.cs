@@ -22,6 +22,7 @@ public class Fox : MonoBehaviour
     public float lifetime;
     public State currentState;
     public bool isBusy;
+   [SerializeField] public FoxAnimation animator;
 
     [Header("Patrol Variables")]
     public float patrolRadius;
@@ -144,11 +145,13 @@ public class Fox : MonoBehaviour
         {
             currentState = State.Hunt;
             Hunt();
+            animator.ChangeAnimationState(FoxAnimation.State.Running);
         }
         else
         {
             currentState = State.Patrol;
             targetRabbit = null;
+            animator.ChangeAnimationState(FoxAnimation.State.Walking);
         }
     }
 

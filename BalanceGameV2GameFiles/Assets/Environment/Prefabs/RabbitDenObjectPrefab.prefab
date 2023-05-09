@@ -41,14 +41,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2978984586177226019}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fc5f22c83bbcde4fa591e5cb94719e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 10
+  spawnInterval: 50
   rabbitPrefab: {fileID: 8238876599471381066, guid: 4a4f3e2a53dba704899ccde72579daa6, type: 3}
-  safeZone: 10
+  safeZone: 20
 --- !u!65 &3663275484890538249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57,7 +57,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2978984586177226019}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 8.583593, y: 6.770128, z: 7.1548004}
@@ -92,6 +92,14 @@ PrefabInstance:
     - target: {fileID: -6516846243328507581, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5305789056076742511, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Mass
+      value: 6000
+      objectReference: {fileID: 0}
+    - target: {fileID: -5305789056076742511, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_Constraints
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 4919675251602218461, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
       propertyPath: m_RootOrder
@@ -142,6 +150,10 @@ PrefabInstance:
       value: Rabbit Den
       objectReference: {fileID: 0}
     - target: {fileID: 5696457868144248679, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5696457868144248679, guid: 93fedfef90735654bbae91ab6c0ce3b4, type: 3}
       propertyPath: m_TagString
       value: Hut
       objectReference: {fileID: 0}
@@ -164,7 +176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9201036498848858427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fc5f22c83bbcde4fa591e5cb94719e1, type: 3}
   m_Name: 

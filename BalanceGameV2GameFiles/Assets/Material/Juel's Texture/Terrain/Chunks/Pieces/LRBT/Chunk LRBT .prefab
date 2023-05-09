@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3335309864288356456}
   - component: {fileID: 147076468858143586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps (2)
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -58,7 +58,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4221058040857882895}
   - component: {fileID: 1630086972148584977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps (3)
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2256293969173532410}
   - component: {fileID: 7007890879049568837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps (5)
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -154,7 +154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8262831860241809728}
   - component: {fileID: 2582475802863364735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 2292616205370935413}
   - component: {fileID: 7990826745109081739}
   - component: {fileID: 2855596973221424429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Chunk LRBT '
   m_TagString: Ground
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -319,7 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4914339906509291888}
   - component: {fileID: 1059754208019977012}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps (1)
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -367,7 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710054134363581769}
   - component: {fileID: 1258863935987115644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnObjectStumps (4)
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
